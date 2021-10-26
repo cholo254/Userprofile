@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	string   first,last,meal,movie;
+	cout<<"Enter your First Name: ";
+	cin>>first;
+	
+	cout<<"Enter your last Name: ";
+	cin>>last;
+	
+	cout<<"Enter your favourite meal: ";
+	cin>>meal;
+	
+	cout<<"Enter your favourite movie: ";
+	cin>>movie;
+	
+	cout<<"Name: "<<first<<last<<endl;
+	cout<<"favourite movie: "<<movie<<endl;
+	cout<<"favourite meal: "<<meal<<endl;
+	return 0;
+}
